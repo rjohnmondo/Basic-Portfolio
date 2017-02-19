@@ -33,6 +33,18 @@ header{
 	border-color:#4aaaa5;
 }
 
+.container2 {
+	width:960px;
+	background-color:#ebebeb;
+	height:770px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:10px;
+	border-left:0px;
+	border-style:solid;
+	border-color:#4aaaa5;
+}
+
 .name {
 	
 	background-color:#4aaaa5;
@@ -103,6 +115,15 @@ header{
 	text-align:center;
 }
 
+.h3 {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#4aaaa5;
+	font-size:25px;
+	margin:auto;
+	padding:30px;
+	text-align:left;
+}
+
 p {
 	text-indent:10px;
 }
@@ -118,6 +139,15 @@ img {
 	margin:auto;
 }
 
+.holder {
+	display:flex;
+	justify-content: center;
+	
+}
+
+.pictureholder {
+	padding-left:100px;
+}
 
 .aboutme {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -130,8 +160,10 @@ img {
 	margin-top:30px;
 	background-color:#ffffff;
 	padding:5px;
-	;
-}
+	position:relative;
+
+
+	}
 
 
 .sidebar {
@@ -161,3 +193,68 @@ footer{
 	border-top-color:#4aaaa5;
 	overflow:auto;
 	}
+
+#pic1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;.
+	padding:10px;
+	background-color:#4aaaa5;
+	color:white;
+	width:200px;
+	height:25px;
+	position:absolute;
+	text-align:center;
+	top:252px;
+	left:110px;
+}
+
+#pic2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;.
+	padding:10px;
+	background-color:#4aaaa5;
+	color:white;
+	width:200px;
+	height:25px;
+	position:absolute;
+	text-align:center;
+	top:252px;
+	left:325px;
+}
+
+#pic3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;.
+	padding:10px;
+	background-color:#4aaaa5;
+	color:white;
+	width:200px;
+	height:25px;
+	position:absolute;
+	text-align:center;
+	top:457px;
+	left:110px;
+}
+
+#pic4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;.
+	padding:10px;
+	background-color:#4aaaa5;
+	color:white;
+	width:200px;
+	height:25px;
+	position:absolute;
+	text-align:center;
+	top:457px;
+	left:325px;
+}
+
+#pic5 {
+	font-family: 'Georgia', Times, Times New Roman, serif;.
+	padding:10px;
+	background-color:#4aaaa5;
+	color:white;
+	width:200px;
+	height:25px;
+	position:absolute;
+	text-align:center;
+	top:665px;
+	left:110px;
+}
